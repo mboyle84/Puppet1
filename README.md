@@ -1,1 +1,1 @@
-Setting up Server 2012 with webserver
+Setting up Server 2012 with webserver. Added chocolaty as I was going to continue with challenge 3 but ran out of time. Chocolaty I find is great for installing third party tools when required via puppet. 
