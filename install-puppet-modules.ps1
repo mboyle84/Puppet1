@@ -15,7 +15,8 @@ Write-Host "Install Puppet IIS module manually"
 & 'C:\Program Files\Puppet Labs\Puppet\bin\puppet.bat' module install puppet-iis
 Write-Host "Install Puppet dsc module manually"
 & 'C:\Program Files\Puppet Labs\Puppet\bin\puppet.bat' module install puppetlabs-dsc
-
+Write-Host "install xwebadministration powershell module"
+Install-Module -Name xWebAdministration -Force
 
 #& 'C:\Program Files\Puppet Labs\Puppet\bin\puppet.bat' module install puppet-iis --version 2.0.2
 #Write-Host "Install Puppet dsc module manually"
